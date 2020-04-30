@@ -8,23 +8,16 @@ body,html{
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	-webkit-overflow-scrolling: touch;  
+	-webkit-overflow-scrolling: touch;
+	font-family: 微軟正黑體;  
 }
-/*font family*/
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:900|Slabo+27px&display=swap');
-
-/*font-family: 'Noto Serif TC', serif;
-font-family: 'Slabo 27px', serif;*/
-
-h1,h2,h3,h4,h5,h6{
-	/*font-family: 'Noto Serif TC', serif,微軟正黑體;*/
+h1,h2,h3,h4,h5,h6,p,a{
 	text-decoration: none;
 }
 h2{
 	text-align: center;
 	font-size: 24px;
-	font-family: 微軟正黑體;
 	line-height: 40px;
 	margin-bottom: 32px;
 }
@@ -36,9 +29,6 @@ span{
 	margin-top: 16px;
 	margin-bottom: 16px;
 	text-align: center;
-}
-p{
-	font-family: 微軟正黑體;
 }
 img{
 	display: block;
@@ -54,7 +44,6 @@ a{
 .clearfix:after {
   clear: both;
 }
-/*------------------------------------------------------*/
 .wrapper{
 	width: 100%;
 	height:100%;
@@ -88,7 +77,6 @@ header >  nav > ul > li{
 	display: block;
 }
 header > nav > ul > li > a{
-	font-family: 微軟正黑體;
 	font-size: 18px;
 	line-height: 44px;
 	color: #707070;
@@ -117,7 +105,6 @@ header > .logo > p {
 	height: 40px;	
 	display: inline-block;	
 	outline: 0;
-	font-family: 微軟正黑體;
 	text-align: center;
 	font-size: 16px;
 	line-height: 40px;
@@ -146,7 +133,6 @@ header > .logo > p {
 .popup{
 	display: none;
 }
-/*-----------------------------------------*/
 main {
 	width: 90%;
 	height: auto;
@@ -182,14 +168,12 @@ section > a > img {
 	height: auto;
 }
 section > .text > .cover {
-	font-family: 微軟正黑體;
 	font-size: 20px;
 	line-height: 40px;
 	font-weight: 600;
 	margin-bottom: 8%;
 }
 section > .text > .intro{
-	font-family: 微軟正黑體;
 	font-size: 18px;
 	line-height: 36px;
 	margin-bottom: 8%;
@@ -201,7 +185,6 @@ section > .text > .intro{
 	margin-bottom: 58%;
 }
 .date{
-	font-family: 微軟正黑體;
 	font-size: 16px;
 	line-height: 32px;
 	color: #616161;
@@ -266,7 +249,6 @@ article{
 .mag_cover{
 	font-size: 20px;
 	line-height: 40px;
-	font-family: 微軟正黑體;
 	font-weight: 800;
 	margin-bottom: 16px;
 	margin-top: 16px;
@@ -275,7 +257,6 @@ article{
 	width: 100%;
 	font-size: 18px;
 	line-height: 36px;
-	font-family: 微軟正黑體;
 	margin-bottom: 16px;
 }
 .mag > .item > .btn_line{
@@ -291,7 +272,6 @@ article{
 	height: 38px;	
 	display: block;	
 	outline: 0;
-	font-family: 微軟正黑體;
 	text-align: center;
 	font-size: 16px;
 	line-height: 38px;
@@ -308,7 +288,6 @@ article{
 .article > h2{
 	text-align: center;
 	font-size: 24px;
-	font-family: 微軟正黑體;
 	line-height: 40px;
 	margin-bottom: 16px;
 }
@@ -342,11 +321,10 @@ article{
 	color: #616161;
 }
 .article_set > .text > h3{
-	font-family: 微軟正黑體;
 	font-weight: 800;
 	font-size: 22px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 	line-height: 40px;
 }
 .article_set > .text > .author{
@@ -358,12 +336,11 @@ article{
 	clear: both;
 	font-size: 18px;
 	line-height: 36px;
-	font-family: 微軟正黑體;
-	margin-bottom: 24px;
+	margin-bottom: 16px;
 }
 .article_set .btn_line{
 	text-align: right;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 }
 .left span{
 	width: 100%;
@@ -405,7 +382,6 @@ article{
 	top: 0;
 	background-color: #616161;
 }
-/*-------------------------------------*/
 .story{
 	background-color: #F3F3F3;
 	width: 90%;
@@ -439,7 +415,6 @@ article{
 	margin-bottom: 0;
 }
 .people_item > h3{
-	font-family: 微軟正黑體;
 	font-size: 20px;
 	font-weight: 800;
 	line-height: 40px;
@@ -462,7 +437,6 @@ article{
 	text-align: right;
 	margin-top: 16px;
 }
-/*------------------------------------------*/
 footer{
 	width: 90%;
 	margin-bottom: 24px;
@@ -539,7 +513,6 @@ footer{
 	width: 88px;
 	height: 40px;
 	color: #CC3433;
-	font-family: 微軟正黑體;
 	line-height: 40px;
 	text-align: center;
 	margin-left: 24px;
@@ -559,14 +532,12 @@ footer{
 	font-size: 12px;
 	color: #616161;
 	text-align: center;
-	font-family: 微軟正黑體;
 	margin-top: 160px;
 	margin-bottom: 40px;
 }
 .mobile_footer{
 	display: none;
 }
-/*-------------------------------------------*/
 @media(max-width: 1230px){
 	header >  nav {
 		width: 20%;
@@ -658,12 +629,12 @@ footer{
 	}
 	.Slabo_27px{
 		font-size: 27px;
-		margin-bottom: 56%;
+		margin-bottom: 40%;
 	}
 	.date{
 		font-size: 16px;
 		line-height: 32px;
-		margin-bottom: 56%;
+		margin-bottom: 42%;
 	}
 	.btn_line > a{
 		font-size: 12px;
@@ -698,7 +669,7 @@ footer{
 	    margin-top: 30px;
 	}
 	.left span {
-	    top: 48%;
+	    top: 47%;
 	}
 	.people_item > h3 {
 	    font-size: 16px;
@@ -1257,7 +1228,7 @@ footer{
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 50%;
+		width: 100%;
 		height: 100%;
 		background-color: #2d2d2d;
 		opacity: 0;
@@ -1348,10 +1319,8 @@ footer{
 	.popup_icon_group{
 		display: flex;
 		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: center;
-		align-items: flex-start;
 		margin-top: 24px;
+		margin-left: 36px;
 	}
 	.follow_btn{
 		clear: both;
@@ -1427,6 +1396,7 @@ footer{
 	.people_item{
 		width: 40%;
 		margin-right: 32px;
+		margin-top: 20px;
 	}
 	.people_item:nth-child(2){
 		margin-right: 0;
